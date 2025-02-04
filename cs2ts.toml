@@ -1,0 +1,11 @@
+# cs2ts.toml
+extensions = ["cs", "csx"]
+ignore = ["**/bin/**", "**/obj/**"]
+input_dir = "./cs"
+output_dir = "./generated"
+localized = true
+i18n_library = "@/i18n"
+
+[[additional_imports]]
+name = "{ Example }"
+path = "@/foo/bar"
