@@ -1,0 +1,22 @@
+[package]
+name = "code_gen"
+version = "0.1.0"
+edition = "2021"
+authors = ["Spas Milenkov"]
+description = "C# to TypeScript/Zod code generator"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+regex = "1.10"
+colored = "2.0"
+walkdir = "2.4"
+lazy_static = "1.4"
+notify = "6.1"
+notify-debouncer-mini = "0.4"
+tokio = { version = "1.35", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+thiserror = "1.0"
+glob = "0.3"
+seahash = "4.1"
+chrono = "0.4.39"
