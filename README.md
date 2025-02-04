@@ -35,7 +35,7 @@ A code generation tool for converting C# enums and DTOs to TypeScript enums and 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cs2ts.git
+git clone git@github.com:SpasMilenkov/UniTrackCodeGen.git
 cd cs2ts
 
 # Build the project
